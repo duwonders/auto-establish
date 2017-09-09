@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "一个自动化部署工具，在本地开发修改代码并且保存后，自动同步到服务器且完成部署的开发工具",
   "main": "index.js",
+  "bin": {
+    "auto": "bin/auto-establish.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +20,8 @@
   },
   "homepage": "https://github.com/duwonders/auto-establish#readme",
   "dependencies": {
-    "chokidar": "^1.7.0"
+    "chokidar": "^1.7.0",
+    "liftoff": "^2.3.0",
+    "minimist": "^1.2.0"
   }
 }
