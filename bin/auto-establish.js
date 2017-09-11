@@ -2,7 +2,6 @@
 var path = process.cwd(),
     argv = process.argv.slice(2)[0],  //获取命令行参数
     Liftoff = require('liftoff'); //该模块用于执行命令是找到代理执行目录以便于找到对应conf文件
-    require("../bin");
 cli = new Liftoff({
   name: 'auto-establish',
   processTitle: 'auto',
